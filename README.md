@@ -11,10 +11,11 @@ This project is a FastAPI application that does API key-based authentication and
 
 The repository has five files - 
 
-- **[crud.py](http://crud.py)** - generates and stores the encryption key and inserts and fetches the user details.
-- **[schemas.py](http://schemas.py)** - defines the pydantic models which acts as the base class for creating user defined models.
-- **[sql_model.py](http://sql_model.py)** - connects to the database and creates relations to store the user details.
-- **[main.py](http://main.py)** - the main FastAPI code that contains three endpoints-
+- **[crud.py]** - generates and stores the encryption key and inserts and fetches the user details.
+- **[schemas.py]** - defines the pydantic models which acts as the base class for creating user defined models.
+- **[sql_model.py]** - connects to the database and creates relations to store the user details.
+- **[secret.key]** - stores the encryption key.
+- **[main.py]** - the main FastAPI code that contains three endpoints-
     
     - **/register** : Capture the following fields:
     
